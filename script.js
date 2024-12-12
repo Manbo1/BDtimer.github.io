@@ -49,6 +49,7 @@ function resetTimer() {
   clearInterval(timer);
   isRunning = false;
   seconds = 0;
+  minutes = 1;
   updateTimerDisplay();
   updateControlsState();
 }
