@@ -57,7 +57,7 @@ function resetTimer() {
 function updateControlsState() {
   startButton.disabled = isRunning;
   pauseButton.disabled = !isRunning;
-  resetButton.disabled = !isRunning;
+  resetButton.disabled = isRunning;
 }
 
 startButton.addEventListener("click", startTimer);
